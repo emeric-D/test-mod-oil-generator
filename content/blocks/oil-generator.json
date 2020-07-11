@@ -7,7 +7,7 @@
     "liquidCapacity" : 100,
 
     "radomlyExpode" : false,
-    "powerProduction" : 50 ,
+    "powerProduction" : 6,
     "consumes" : {
         "liquid" :{"liquid" : "oil" , "amount" : 0.25}
     },
