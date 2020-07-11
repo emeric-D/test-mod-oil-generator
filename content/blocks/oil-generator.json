@@ -1,5 +1,5 @@
 {
-    "type" : "BurnerGenerator",
+    "type" : "burnerGenerator",
     "name" : "oil generator",
     "description" : "Generate enrgy from oil",
     "size" : 2,
