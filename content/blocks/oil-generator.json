@@ -1,5 +1,5 @@
 {
-    "type" : "NuclearReactor",
+    "type" : "BurnerGenerator",
     "name" : "oil generator",
     "description" : "Generate enrgy from oil",
     "size" : 2,
@@ -13,9 +13,9 @@
     },
 
     "requirements" : [
-        {"items" : "copper", "amount" : 100},
-        {"items" : "lead", "amount" : 75},
-        {"items" : "titanium", "amount" : 20}
+        {"item" : "copper", "amount" : 100},
+        {"item" : "lead", "amount" : 75},
+        {"item" : "titanium", "amount" : 20}
     ],
     "category" : "power",
     "research" : "steam-generator"
