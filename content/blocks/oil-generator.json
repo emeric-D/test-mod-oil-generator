@@ -9,7 +9,7 @@
     "radomlyExpode" : false,
     "powerProduction" : 70,
     "consumes" : {
-        "liquid" :{"liquid" : "oil" , "amount" : 1}
+        "liquid" :{"liquid" : "oil" , "amount" : 0.25}
     },
 
     "requirements" : [
