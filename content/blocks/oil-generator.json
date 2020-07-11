@@ -1,5 +1,5 @@
 {
-    "type" : "NuclearGenerator",
+    "type" : "NuclearReactor",
     "name" : "oil generator",
     "description" : "Generate enrgy from oil",
     "size" : 2,
