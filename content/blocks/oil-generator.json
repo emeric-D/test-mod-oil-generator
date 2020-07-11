@@ -1,0 +1,22 @@
+{
+    "type" : "BurnerGenerator",
+    "name" : "oil generator",
+    "description" : "Generate enrgy from oil",
+    "size" : 2,
+    "health" : 500,
+    "liquidCapacity" : 100,
+
+    "radomlyExpode" : false,
+    "powerProduction" : 300,
+    "consumes" : {
+        "liquid" :{"liquid" : "oil" , "amount" : 1}
+    },
+
+    "requirements" : [
+        {"items" : "copper", "amount" : 100},
+        {"items" : "lead", "amount" : 75},
+        {"items" : "titanium", "amount" : 20}
+    ],
+    "category" : "power",
+    "research" : "steam-generator"
+}
