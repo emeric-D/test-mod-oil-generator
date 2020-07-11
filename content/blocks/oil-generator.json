@@ -1,13 +1,13 @@
 {
-    "type" : "BurnerGenerator",
+    "type" : "PowerGenerator",
     "name" : "oil generator",
-    "description" : "Generate enrgy from oil",
+    "description" : "Generate energy from oil",
     "size" : 2,
     "health" : 500,
     "liquidCapacity" : 100,
 
     "radomlyExpode" : false,
-    "powerProduction" : 300,
+    "powerProduction" : 70,
     "consumes" : {
         "liquid" :{"liquid" : "oil" , "amount" : 1}
     },
