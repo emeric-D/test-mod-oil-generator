@@ -11,11 +11,6 @@
 
     "powerProduction" : 6,
     "consumes" : {
-        "items" : {
-            "items" : [
-                { "item" : "copper" , "amount" : 1}
-            ]
-        },
         "liquid" : {"liquid" : "oil" , "amount" : 0.25}
     },
 
