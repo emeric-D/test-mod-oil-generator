@@ -1,5 +1,5 @@
 {
-    "type" : "PowerGenerator",
+    "type" : "SingleTypeGenerator",
     "name" : "oil generator",
     "description" : "Generate energy from oil",
     "size" : 2,
@@ -7,12 +7,11 @@
     "liquidCapacity" : 100,
     "hasLiquids" : true,
     "hasPower" : true,
+    "outputsPower" : true,
 
     "powerProduction" : 6,
     "consumes" : {
-        "items" :{
-            "liquids" : {"liquid" : "oil" , "amount" : 0.25}
-        }
+        "liquid" : {"liquid" : "oil" , "amount" : 0.25}
     },
 
     "requirements" : [
