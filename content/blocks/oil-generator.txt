@@ -1,23 +1,18 @@
-{
-    "name" : "oil generator",
-    "description" : "Generate energy from oil",
-    "size" : 2,
-    "health" : 500,
-    "liquidCapacity" : 100,
-    "hasLiquids" : true,
-    "hasPower" : true,
-    "hasItems" : true,
-
-    "powerProduction" : 6,
-    "consumes" : {
-        "liquid" : {"liquid" : "oil" , "amount" : 0.25}
-    },
-
-    "requirements" : [
-        {"item" : "copper", "amount" : 100},
-        {"item" : "lead", "amount" : 75},
-        {"item" : "titanium", "amount" : 20}
-    ],
-    "category" : "power",
-    "research" : "turbine-generator"
+size: 2
+category: power
+hasPower: true
+hasItems: true
+hasLiquids: true
+liquidCapacity: 50
+itemDuration: 60
+consumes: {
+	liquid: {
+		liquid: oil
+		amount: 0.16666
+	}
 }
+powerProduction: 1.5
+requirements: [
+	copper/45
+	lead/30
+]

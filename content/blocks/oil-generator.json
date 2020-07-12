@@ -1,0 +1,28 @@
+{
+    "type" : "SingleTypeGenerator",
+    "name" : "oil generator",
+    "description" : "Generate energy from oil",
+    "size" : 2,
+    "hasPower" : true,
+    "powerProduction" : 6,
+    "hasItems" : true,
+    "itemDuration" : 60,
+    "hasLiquids" : true,
+    "health" : 500,
+    "liquidCapacity" : 100,
+    
+    
+
+    
+    "consumes" : {
+        "item" : "oil"
+    },
+
+    "requirements" : [
+        {"item" : "copper", "amount" : 100},
+        {"item" : "lead", "amount" : 75},
+        {"item" : "titanium", "amount" : 20}
+    ],
+    "category" : "power",
+    "research" : "turbine-generator"
+}
