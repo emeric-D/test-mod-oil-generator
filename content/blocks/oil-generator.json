@@ -7,11 +7,11 @@
     "liquidCapacity" : 100,
     "hasLiquids" : true,
     "hasPower" : true,
-    "itemDuration" : 60,
+    "itemDuration" : 120,
 
-    "radomlyExpode" : false,
     "powerProduction" : 6,
     "consumes" : {
+        "items" : {"item" : "copper" , "amount" : 1},
         "liquid" : {"liquid" : "oil" , "amount" : 0.25}
     },
 
