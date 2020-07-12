@@ -5,6 +5,9 @@
     "size" : 2,
     "health" : 500,
     "liquidCapacity" : 100,
+    "hasLiquids" : true,
+    "hasPower" : true,
+    "itemDuration" : 60,
 
     "radomlyExpode" : false,
     "powerProduction" : 6,
