@@ -1,5 +1,5 @@
 {
-    "type" : "SingleTypeGenerator",
+    "type" : "PowerGenerator",
     "name" : "oil generator",
     "description" : "Generate energy from oil",
     "size" : 2,
@@ -7,7 +7,6 @@
     "liquidCapacity" : 100,
     "hasLiquids" : true,
     "hasPower" : true,
-    "itemDuration" : 120,
 
     "powerProduction" : 6,
     "consumes" : {
