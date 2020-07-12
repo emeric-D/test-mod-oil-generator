@@ -11,6 +11,7 @@
 
     "powerProduction" : 6,
     "consumes" : {
+        "items": {},
         "liquid" : {"liquid" : "oil" , "amount" : 0.25}
     },
 
