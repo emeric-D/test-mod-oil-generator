@@ -1,0 +1,27 @@
+{
+    "type" : "separator",
+    "name" : "oil separator",
+    "description" : "Extract solid oil from oil",
+    "size" : 2,
+    "hasPower" : true,
+    "hasLiquids" : true,
+    "itemCapacity" : 10,
+    "consumes" : {
+        "power" : 1.0,
+        "liquid" : {
+            "liquid" : "oil",
+            "amount" : 0.5
+        }
+    },
+    "results" : [
+        {"item" : "copper", "amount" : 2}
+    ],
+    "requirements" : [
+        {"item" : "copper", "amount" : 50},
+        {"item" : "lead", "amount" : 20},
+        {"item" : "titanium", "amount" : 5}
+    ],
+    "category" : "crafting",
+    "research" : "separator"
+
+}
