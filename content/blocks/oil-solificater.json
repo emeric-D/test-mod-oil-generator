@@ -14,7 +14,7 @@
         }
     },
     "results" : [
-        {"item" : "copper", "amount" : 2}
+        {"item" : "solid-oil", "amount" : 2}
     ],
     "requirements" : [
         {"item" : "copper", "amount" : 50},
