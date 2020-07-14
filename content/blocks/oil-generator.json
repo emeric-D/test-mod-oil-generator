@@ -1,21 +1,18 @@
 {
     "type" : "SingleTypeGenerator",
     "name" : "oil generator",
-    "description" : "Generate energy from oil",
+    "description" : "Generate energy from solid oil, produced from oil with oil solidificator",
     "size" : 2,
     "hasPower" : true,
     "powerProduction" : 6,
     "hasItems" : true,
     "itemDuration" : 60,
-    "hasLiquids" : true,
     "health" : 500,
-    "liquidCapacity" : 100,
-    
-    
 
-    
     "consumes" : {
-        "item" : "oil"
+        "item" : [
+            {"item" : "solid-oil", "amount" : 1}
+        ]
     },
 
     "requirements" : [
