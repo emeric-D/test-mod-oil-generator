@@ -10,9 +10,11 @@
     "health" : 500,
 
     "consumes" : {
-        "item" : [
-            {"item" : "solid-oil", "amount" : 1}
-        ]
+        "items" : {
+            "items" : [
+                {"item" : "solid-oil", "amount" : 1}
+            ]
+        }
     },
 
     "requirements" : [
